@@ -1,4 +1,5 @@
-import { Text, View } from "react-native";
+import { View } from "react-native";
+import SignUp from "./auth/sign-up";
 
 export default function Index() {
   return (
@@ -7,9 +8,11 @@ export default function Index() {
         flex: 1,
         justifyContent: "center",
         alignItems: "center",
+        backgroundColor: '#fff',
+
       }}
     >
-      <Text>Edit app/index.tsx to edit this screen.</Text>
+      <SignUp />
     </View>
   );
 }
