@@ -1,5 +1,6 @@
 import { TextStyle } from "react-native";
 import { ColorTokens } from "./base/color";
+import { ShadowTokens } from "./base/shadow";
 
 // React Native-friendly typography derived from base tokens
 const fontFamily = "Instrument Sans";
@@ -15,3 +16,6 @@ export const colors = {
   ...ColorTokens,
 };
 
+export const shadow = {
+  ...ShadowTokens,
+};
